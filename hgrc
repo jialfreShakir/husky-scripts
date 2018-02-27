@@ -1,0 +1,13 @@
+#husky-hg:begin
+[hooks]
+changegroup=.hg/hooks/changegroup
+commit=.hg/hooks/commit
+incoming=.hg/hooks/incoming
+outgoing=.hg/hooks/outgoing
+precommit=.hg/hooks/precommit
+preoutgoing=.hg/hooks/preoutgoing
+pretag=.hg/hooks/pretag
+pretxnchangegroup=.hg/hooks/pretxnchangegroup
+pretxncommit=.hg/hooks/pretxncommit
+preupdate=.hg/hooks/preupdate
+#husky-hg:end
